@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bub5hxwe1of0e"]
+
+[ext_resource type="Script" path="res://Godot/ül5.gd" id="1_pwvco"]
+
+[node name="Tseen" type="Node2D"]
+script = ExtResource("1_pwvco")

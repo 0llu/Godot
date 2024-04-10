@@ -1,0 +1,60 @@
+[gd_scene load_steps=4 format=3 uid="uid://daidwlxjf4yud"]
+
+[ext_resource type="Script" path="res://ül 6-7/ül7.gd" id="1_pr86v"]
+[ext_resource type="Texture2D" uid="uid://coq718b7sjdlo" path="res://ül 6-7/unnamed.jpg" id="2_65wkg"]
+[ext_resource type="FontFile" uid="uid://cd1eaxpiiii8u" path="res://ül 6-7/VT323-Regular.ttf" id="3_pfwpn"]
+
+[node name="E" type="Node2D"]
+script = ExtResource("1_pr86v")
+
+[node name="pilt" type="TextureRect" parent="."]
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 1149.0
+offset_bottom = 649.0
+texture = ExtResource("2_65wkg")
+
+[node name="score" type="RichTextLabel" parent="pilt"]
+layout_mode = 0
+offset_left = 943.0
+offset_top = 1.0
+offset_right = 1150.0
+offset_bottom = 125.0
+theme_override_fonts/normal_font = ExtResource("3_pfwpn")
+theme_override_font_sizes/normal_font_size = 50
+
+[node name="pewpew" type="RichTextLabel" parent="pilt"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 246.0
+offset_bottom = 86.0
+theme_override_fonts/normal_font = ExtResource("3_pfwpn")
+theme_override_font_sizes/normal_font_size = 50
+
+[node name="kuulid" type="RichTextLabel" parent="pilt"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 568.0
+offset_right = 276.0
+offset_bottom = 650.0
+theme_override_fonts/normal_font = ExtResource("3_pfwpn")
+theme_override_font_sizes/normal_font_size = 50
+
+[node name="gameover" type="RichTextLabel" parent="pilt"]
+layout_mode = 0
+offset_left = 295.0
+offset_top = 193.0
+offset_right = 1148.0
+offset_bottom = 454.0
+theme_override_fonts/normal_font = ExtResource("3_pfwpn")
+theme_override_font_sizes/normal_font_size = 150
+
+[node name="elud" type="RichTextLabel" parent="pilt"]
+layout_mode = 0
+offset_left = 886.0
+offset_top = 565.0
+offset_right = 1148.0
+offset_bottom = 651.0
+theme_override_fonts/normal_font = ExtResource("3_pfwpn")
+theme_override_font_sizes/normal_font_size = 50
